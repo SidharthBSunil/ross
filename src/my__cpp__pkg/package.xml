@@ -2,14 +2,15 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>my__cpp__pkg</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="sidharthbsunil@gmail.com">sidharth</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.0.1</version>
+  <description>A simple example C++ ROS 2 package.</description>
+  <maintainer email="sidharthbsunil@gmail.com">Sidharth B. Sunil</maintainer>
+  <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
+  <depend>example_interfaces</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
