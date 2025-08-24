@@ -10,7 +10,7 @@ class NumberPublisher(Node):
     def __init__(self):
         super().__init__("number_publisher")
         self.number_=2
-        self.publisher_=self.create_publisher(Int64,"number",10)
+        self.publisher_=self.create_publisher(Int64,"number",10) #topic name number
         self.timer=self.create_timer(0.5,self.publish_counter)
         self.get_logger().info("Robot counter Station has been started.")
     
